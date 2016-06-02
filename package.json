@@ -1,0 +1,29 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+      "mocha":"2.5.3",
+    "should":"9.0.0",
+    "istanbul":"0.4.3",
+    "benchmark":"2.1.0"
+  },
+  "dependencies": {
+    "express":"^4.9.5",
+    "utility":"^1.2.0",
+    "jade":"^1.11.0",
+    "cheerio":"0.20.0",
+    "superagent":"v2.0.0",
+    "eventproxy": "0.3.4",
+    "url":"0.11.0",
+    "cookie-parser":"1.4.3",
+    "express-session":"1.13.0"
+  
+  }
+}
