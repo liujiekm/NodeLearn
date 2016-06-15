@@ -9,10 +9,13 @@ var session = require('express-session');
     
 // );
 
-var app= express();
+var app = express();
 
 app.use(cookieParser());
-app.use(session({secret:'secret key'}));
+app.use(session({secret:'secret key',
+                resave:'true',
+                saveUninitialized:'true'
+}));
 
 
 
