@@ -28,7 +28,8 @@
     "socket.io": "1.4.5",
 
     "rabbit.js":"0.4.4",
-    "amqp":"0.2.6"
+    "amqp":"0.2.6",
+    "formidable":"1.0.17"
 
   
   }
